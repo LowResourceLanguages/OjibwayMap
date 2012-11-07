@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ojibwaySecondViewController : UIViewController
+@interface ojibwaySecondViewController : UIViewController{
+    
+    IBOutlet UIScrollView *scrollcredits;
+    IBOutlet UIScrollView *scrollcreditsiphone;
+}
 
 @end

@@ -10,4 +10,12 @@
 
 @implementation history
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation != UIDeviceOrientationLandscapeLeft) &&
+    (interfaceOrientation != UIDeviceOrientationLandscapeRight);
+    
+}
+
 @end
